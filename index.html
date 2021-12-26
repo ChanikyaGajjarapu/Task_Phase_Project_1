@@ -4,64 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sign up Form</title>
+    <title>Sign-in Form.</title>
+    <link rel="stylesheet" href="style2.css" />
   </head>
   <body>
-    <h1><b>Sign-Up Form</b></h1>
-    <form>
-      <table>
-        <tr>
-          <td>Name:</td>
-          <td>
-            <input type="text" placeholder="Name" />
-          </td>
-        </tr>
-        <tr>
-          <td>Phone no:</td>
-          <td>
-            <select>
-              <option>+91</option>
-              <option>+92</option>
-              <option>+93</option>
-              <option>+94</option>
-            </select>
-            <input type="phone" placeholder="93487*****" />
-          </td>
-        </tr>
-        <tr>
-          <td>Email:</td>
-          <td><input type="text" placeholder="example@gmail.com" /></td>
-        </tr>
-        <tr>
-          <td>Password:</td>
-          <td>
-            <input type="password" placeholder="Password" />
-          </td>
-        </tr>
-        <tr>
-          <td>Date fo Birth:</td>
-          <td><input type="date" /></td>
-        </tr>
-        <tr>
-          <td>Gender:</td>
-          <td>
-            <input type="radio" name="Gender" />Male
-            <input type="radio" name="Gender" />Female
-            <input type="radio" name="Gender" />Others
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <input type="Submit" value="Sign Up" />
-          </td>
-        </tr>
-        <tr>
-          <td>Already a member?</td>
-          <td><a href="signin.html">Log-in</a></td>
-        </tr>
-      </table>
-    </form>
+    <div class="login-box">
+      <h1><strong>Login</strong></h1>
+      <form>
+        <div class="user-box">
+          <input type="text" name="" required="" />
+          <label>Username</label>
+        </div>
+        <div class="user-box">
+          <input type="password" name="" required="" />
+          <label>Password</label>
+        </div>
+        <a class="submit" href="index.html">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          Submit
+        </a>
+      </form>
+      <div class="existingMemberRedirect">
+        <p>Not a member yet? <a href="signin.html">Signup Here</a></p>
+      </div>
+    </div>
   </body>
 </html>
-
-{% comment %} COMMENT {% endcomment %}
