@@ -176,13 +176,6 @@ body {
 p a:hover {
   background: #fbff27;
   color: rgb(163, 163, 163);
-  border-radius: 5px;
-  box-shadow: 0 0 5px #fbff27b2, 0 0 15px #fbff27b2, 0 0 30px #fbff27b2,
-    0 0 100px #fbff27b2;
-}
-p a :hover {
-  background: #fbff27;
-  color: rgb(163, 163, 163);
   border-radius: 2px;
   box-shadow: 0 0 5px #fbff27b2, 0 0 15px #fbff27b2, 0 0 30px #fbff27b2,
     0 0 100px #fbff27b2;
